@@ -1,0 +1,52 @@
+#Log{
+	background:#68BAAA;
+	text-align:center;
+	margin-top:150px;
+}
+#L_correo{
+	border-style: inset;
+}
+#L_contra{
+	border-style: inset;
+}
+#R_correo{
+	border-style: inset;
+}
+#R_contra{
+	border-style: inset;
+}
+#boton{
+	border-style: double;
+}
+.navegacion{
+	width: 80%;
+	margin: 30px auto;
+	background:#F6F5D4 ;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+	position: relative;
+	display: inline-table;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	color: black;
+}
+.menu  li  a:hover{
+	color:#004BFD;
+	transition: all .3s;
+}
+#foto{
+	margin-left:110px;
+}
+#tabla{
+	width:90%;
+	text-align:center;
+}
+#fondo{
+	background-color:#AEEBFB;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Salud</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<link href="CSS/estilo.css" rel="stylesheet" type="text/css" /> 
+		<script src="JS/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navegacion">
+				<ul class="menu">				
+					<li><a href="Datos.html">Datos Personales</a></li>
+					<li><a href="Medidas.html">Medidas Corporales</a></li>
+					<li><a href="Actividad.html">Actividad</a></li>
+					<li><a href="Nutricion.html">Nutricion</a></li>
+					<li><a href="index.html">Cerrar Sesion</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="fondo">
+			<h2 style="text-align:center">Sueño</h2>
+			<table id="tabla">
+				<tr>
+					<td>
+						<label>Cantidad de horas dormidas</label><br>
+						<input type="number" id="sueno" placeholder="Horas"/></br></br>
+						<button id="BDatos" onclick="GuardarSue()">Sueño</button></br></br>
+					</td>
+					<td>
+						<label><strong>Cantidad de Horas Dormidas:  </strong></label><br>
+						<div id="chdG"></div></br></br>
+						<button id="BDatos" onclick="MostrarSue()">Cargar Datos</button></br></br>						
+					</td>
+				</tr>	
+			</table>
+		</div>		
+	</body>
+</html>

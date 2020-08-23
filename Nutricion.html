@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Salud</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<link href="CSS/estilo.css" rel="stylesheet" type="text/css" /> 
+		<script src="JS/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navegacion">
+				<ul class="menu">				
+					<li><a href="Datos.html">Datos Personales</a></li>
+					<li><a href="Medidas.html">Medidas Corporales</a></li>
+					<li><a href="Actividad.html">Actividad</a></li>
+					<li><a href="Nutricion.html">Nutricion</a></li>
+					<li><a href="index.html">Cerrar Sesion</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="fondo">
+			<h2 style="text-align:center">Actividad</h2>
+			<table id="tabla">
+				<tr>
+					<td>
+						<input type="number" id="acido" placeholder="Acido folico"/></br></br>
+						<input type="number" id="agua" placeholder="Agua (L)"/></br></br>
+						<input type="number" id="azucar" placeholder="Azucar en Dieta"/></br></br>
+						<input type="number" id="biotina" placeholder="Biotina"/></br></br>
+						<input type="number" id="cafeina" placeholder="Cafeina"/></br></br>
+						<input type="number" id="calcio" placeholder="Calcio"/></br></br>
+						<input type="number" id="carbohidratos" placeholder="Carbohidratos"/></br></br>
+						<input type="number" id="cloro" placeholder="Cloro"/></br></br>
+						<input type="number" id="cobre" placeholder="Cobre"/></br></br>
+						<input type="number" id="colesterol" placeholder="Colesterol en Dieta"/></br></br>
+						<input type="number" id="cromo" placeholder="Cromo"/></br></br>
+						<button id="BDatos" onclick="GuardarNutri()">Guardar Datos</button></br></br>
+						<button id="BDatos" onclick="sueno()">Sueño</button></br></br>
+					</td>
+					<td>
+						<label><strong>Acido Folico:  </strong></label><br>
+						<div id="acG"></div></br></br>
+						<label><strong>Agua: (L)</strong></label><br>
+						<div id="agG"></div></br></br>
+						<label><strong>Azucar en Dieta: </strong></label><br>
+						<div id="adG"></div></br></br>
+						<label><strong>Biotina:  </strong></label><br>
+						<div id="bioG"></div></br></br>
+						<label><strong>Cafeina:  </strong></label><br>
+						<div id="cafG"></div></br></br>
+						<label><strong>Calcio:  </strong></label><br>
+						<div id="calG"></div></br></br>
+						<label><strong>Carbohidratos:  </strong></label><br>
+						<div id="carbG"></div></br></br>
+						<label><strong>Cloro:  </strong></label><br>
+						<div id="cloG"></div></br></br>
+						<label><strong>Cobre:  </strong></label><br>
+						<div id="cobG"></div></br></br>
+						<label><strong>Colesterol en Dieta:  </strong></label><br>
+						<div id="cendG"></div></br></br>
+						<label><strong>Cromo:  </strong></label><br>
+						<div id="cromG"></div></br></br>
+						<button id="BDatos" onclick="MostrarNutri()">Cargar Datos</button></br></br>
+						
+					</td>
+				</tr>	
+			</table>
+		</div>
+	</body>
+</html>
